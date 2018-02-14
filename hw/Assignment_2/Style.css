@@ -1,22 +1,44 @@
-#maintitle { color: #FFCC00;
-             width: 400px;
-             height: 400px;
+/*
 
-             border: 2px solid #FFCC00;
-             border-left: 20px solid #FFCC00;
-
-             padding: 25px;
-             padding-top: 100px;
-
-             margin: 100px;
+font-family: 'Quicksand', sans-serif;
 
 
- }
+font-family: 'Nanum Pen Script', cursive;
+*/
 
-h1, h2, largetext { font-size: 36px; }
-main {width: 800px
-  border: 1px dotted black;
-  margin-left: auto;
-  margin-right: auto;
+
+
+.greentext {
+  color: green;
+}
+
+#maintitle {
+  text-decoration: underline;
+ color: deeppink ;
+ font-family: 'Quicksand', sans-serif;
+}
+
+
+#address {text-decoration: underline;
+color: aqua ;
+font-family: 'Nanum Pen Script', cursive;
 
 }
+
+a {
+  color:brown;
+
+}
+
+a:hover { text-decoration: underline;}
+a:visited { color: green;}
+
+.sizetext {
+font-size: 44px
+}
+
+.lazy {color: red}
+
+.photo {text-decoration: underline;}
+
+.yellowtext {color: yellow;}
