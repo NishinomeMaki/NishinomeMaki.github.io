@@ -1,0 +1,16 @@
+header h1 {height:150px;
+           padding-top: 50px;
+           text-align: center;
+           }
+
+nav ul {
+text-align: center;
+}
+
+nav li {
+text-align: center;
+font-size: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+display: inline;
+}
