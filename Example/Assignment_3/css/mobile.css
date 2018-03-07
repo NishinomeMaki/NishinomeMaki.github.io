@@ -5,3 +5,11 @@ padding-top: 15px;
 padding-bottom: 15px;
 
 }
+
+.square-img {
+display: block;
+}
+
+.wide-img {
+display: none;
+}

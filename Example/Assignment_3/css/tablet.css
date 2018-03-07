@@ -19,3 +19,11 @@ padding-top: 15px;
 padding-bottom: 15px;
 display: inline;
 }
+
+.square-img {
+display: none;
+}
+
+.wide-img {
+display: block;
+}

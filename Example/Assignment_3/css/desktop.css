@@ -1,3 +1,11 @@
+.image-bg{
+background-image: url("../image/wide.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
 header h1 {height:150px;
            padding-top: 50px;
            text-align: center;
@@ -14,3 +22,22 @@ padding-top: 15px;
 padding-bottom: 15px;
 display: inline;
 }
+
+.square-img {
+display: none;
+}
+
+.wide-img {
+display: block;
+}
+
+footer {
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.push{display: block;
+height: 100px}
