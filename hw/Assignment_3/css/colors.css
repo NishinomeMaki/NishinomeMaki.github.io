@@ -20,3 +20,7 @@ nav a {text-decoration: none;}
 img {max-width: 100%;}
 
 footer p {padding: 25px;}
+
+.table { border = "3px";
+bordercolor = "0X4C96FF";
+align = "center"}
