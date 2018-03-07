@@ -1,5 +1,5 @@
 .dark-bg {background: #FFFF66;}
-.medium-bg { background: #003366}
+.medium-bg { background: #003366;}
 .light-bg {background: #0099CC;}
 
 .dark-txt {color: #FFFF66;}
@@ -12,6 +12,8 @@ body {padding: 0;
 
 nav ul {list-style: none;
 margin-left: 0;}
+
+
 
 nav a {text-decoration: none;}
 
