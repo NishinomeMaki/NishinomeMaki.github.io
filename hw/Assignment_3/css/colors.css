@@ -1,0 +1,20 @@
+.dark-bg {background: #FFFF66;}
+.medium-bg { background: #003366}
+.light-bg {background: #0099CC;}
+
+.dark-txt {color: #FFFF66;}
+.medium-txt { color: #003366;}
+.light-txt { color: #0099CC;}
+body {padding: 0;
+      margin: 0;}
+/* A comment */
+
+
+nav ul {list-style: none;
+margin-left: 0;}
+
+nav a {text-decoration: none;}
+
+img {max-width: 100%;}
+
+footer p {padding: 25px;}

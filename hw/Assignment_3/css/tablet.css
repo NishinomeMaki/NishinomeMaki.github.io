@@ -1,0 +1,29 @@
+header h1 {height:150px;
+           padding-top: 50px;
+           text-align: center;
+           }
+
+nav ul {
+text-align: center;
+width: 100%;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+nav li {
+text-align: center;
+font-size: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+display: inline;
+}
+
+.square-img {
+display: none;
+}
+
+.wide-img {
+display: block;
+}
