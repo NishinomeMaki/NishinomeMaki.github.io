@@ -27,3 +27,8 @@ display: none;
 .wide-img {
 display: block;
 }
+
+table th td tr {border: 3px;
+border: solid;
+border-color: 0X4C96FF;
+align-items: center;}

@@ -6,7 +6,8 @@
 .medium-txt { color: #003366;}
 .light-txt { color: #0099CC;}
 body {padding: 0;
-      margin: 0;}
+      margin: 0;
+    text-align: center;}
 /* A comment */
 
 
@@ -21,6 +22,19 @@ img {max-width: 100%;}
 
 footer p {padding: 25px;}
 
-.table { border = "3px";
-bordercolor = "0X4C96FF";
-align = "center"}
+
+td {padding: 5px 10px;
+border: 1px solid #e3e3e3;}
+
+th {background: #666;
+color: white;
+padding: 5px 10px;
+border: 1px solid #e3e3e3;
+}
+
+table {text-align: center;
+  height: 80%;
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #e3e3e3;
+}
