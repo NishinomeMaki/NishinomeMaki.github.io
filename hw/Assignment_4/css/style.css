@@ -1,2 +1,24 @@
 #howTo li {display: none;}
 #howTo li.active {display: block;}
+
+.Stepstyle {border: 3px solid black;
+height: auto;
+width: 650px;
+text-align: center;
+background-color: #0099CC}
+
+
+html{font-family: 'Philosopher', sans-serif;
+background-color: #003366}
+
+#previous,#next,#getStarted,#finish,#yes,#no,#Restart {
+height: 60px;
+width: 150px;
+font-size: 24px;
+background-color: #FFFF66;
+color: #0099CC;
+border: 2px solid black}
+
+.lightfont {color:  #0099CC;}
+
+.bigfont {font-size: 40px}

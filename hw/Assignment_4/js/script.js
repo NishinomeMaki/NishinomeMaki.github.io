@@ -26,8 +26,9 @@ $('#finish').on('click',function(){
 $('#yes,#no').on('click',function(){
 $('#surveytitle').css("background-color","green")
 $('#ThankYou').css({
-  "border":"1px solid green",
-  "background":"#ccc"
+  "border":"3px solid black",
+  "background":" #0099CC",
+  "text-align":"center",
    })
 $('#yes,#no,#survey').hide();
 $('#ThankYou').show()
