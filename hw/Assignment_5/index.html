@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -27,17 +28,90 @@
     <ol class="indicator"></ol>
 </div>
 
-  <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-  <div id="blueimp-gallery" class="blueimp-gallery">
-      <div class="slides"></div>
-      <h3 class="title"></h3>
-      <a class="prev">‹</a>
-      <a class="next">›</a>
-      <a class="close">×</a>
-      <a class="play-pause"></a>
-      <ol class="indicator"></ol>
-  </div>
+    <a href="image/image_2.jpg" title="image_2">
+<img class="image_2" src="image/image_2.jpg" alt="image2">
+    </a>
+    <a href="image/image_3.jpg" title="image_3">
+<img class="image_3" src="image/image_3.jpg" alt="image3">
+    </a>
+    <a href="image/image_4.jpg" title="image_4">
+<img class="image_4" src="image/image_4.jpg" alt="image4">
+    </a>
 
+<a href="image/image_5.jpg" title="image_5">
+<img class="image_5" src="image/image_5.jpg" alt="image5">
+</a>
+    <br>
+
+
+    <a href="image/image_6.jpg" title="image_6">
+<img class="image_6" src="image/image_6.jpg" alt="image6">
+    </a>
+    <a href="image/image_7.jpg" title="image_7">
+<img class="image_7" src="image/image_7.jpg" alt="image7">
+</a>
+<a href="image/image_8.jpg" title="image_8">
+<img class="image_8" src="image/image_8.jpg" alt="image8">
+</a>
+<a href="image/image_1.jpg" title="image_1">
+<img class="image_1" src="image/image_1.jpg" alt="image1">
+    </a>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+<script src="gallery/js/blueimp-gallery.min.js"></script>
+
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+
+
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
+
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+    
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+  </div>
+</div>
+<h2>End</h2>
+    
+    <script src="js/blueimp-gallery.min.js"></script>
+    
+  </body>
+</html>
     <a href="image/image_2.jpg" title="image_2">
 <img class="image_2" src="image/image_2.jpg" alt="image2">
     </a>
